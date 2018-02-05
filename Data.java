@@ -80,22 +80,16 @@ public class Data {
       
       //if correct create new tramsitter and receiver objects
     } catch (FileNotFoundException ex) {
-        Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);
+        
         System.out.println ("Unable to find input.txt");
         System.exit(0);
     } catch (IOException ex){
-        Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);
+        
         System.out.println ("Unable to read from input.txt");
         System.exit(0);
         
     }
-    finally {
-          try {
-              fileReader.close();
-          } catch (IOException ex) {
-              Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);
-          }
-      }
+    
   }
 
   

@@ -57,7 +57,7 @@ public class Receivers {
       // count receivers with tx idx of not zero
         if (r.getTransmitterIndex() == 0) numOfUnattached++;
       }
-      rep = (receiversList.size()-numOfUnattached + " / " + receiversList.size());
+      rep = (receiversList.size()-numOfUnattached + "/" + receiversList.size());
     }
     catch (Exception e)
     {
