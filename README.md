@@ -56,24 +56,29 @@ the program to exit with an error message.
 
 (if the above input.txt used)
 
- 2/3
+2/3
+ 
 4 5
 
-Code Layout
+# Code Layout
 
-Data.java - this specifies the object template that is used to retrieve and  validate the input from the input.txt file
+Grid.java - this object contains the Main method which calls everything else.
 
-Constant.java - this specifies an object that contains program constants
+Data.java - object template that is used to retrieve and  validate (using regular expressions) the 
+input from the input.txt file
 
-Receivers.java - this specifies the object template for a collection of Receivers (HAS-A Receiver's relationship)
+Constant.java - object that contains program constants
 
-Tower.java - this specifies the object template of a Tower object, since Receiver and Transmitter share the same characteristics
+Receivers.java - object template for a collection of Receivers (HAS-A Receiver's relationship)
 
-Receiver.java - this specifies the object template of a Receivers Object. A Receiver IS-A Tower
+Tower.java - object template of a Tower object, since Receiver and Transmitter share the same characteristics
 
-Transmitters.java - this specifies the object template of a collection of Transmitter objects. (HAS-A Transmitter's relationship)
+Receiver.java - object template of a Receivers Object. A (Receiver IS-A Tower)
 
-Transmitter.java - object template of Tranmitter object A Transmitter IS-A Tower
+Transmitters.java - bject template of a collection of Transmitter objects. (HAS-A Transmitter's relationship)
+
+Transmitter.java - object template of Tranmitter object A (Transmitter IS-A Tower)
+
 
 Acknowledgments
 
