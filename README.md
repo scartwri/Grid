@@ -17,9 +17,13 @@ Ensure JRE 1.8 is installed in the linux OS.
 # How to run (assuming /home/grid is the directory being used)
 
 Open a terminal 
+
 cd /home/grid
+
 chmod +r input.txt
+
 chmod +x grid.jar
+
 java -jar grid.jar
 
 # How to test.
