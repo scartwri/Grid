@@ -26,11 +26,11 @@ chmod +x grid.jar
 
 java -jar grid.jar
 
-# How to test.
+# How to verify its been tested.
 
 If you need to test the application and verify that it is working correctly download a copy of the
-NominetCodingChallengeTestDocument.doc from the /documenation directory in git. Follow the steps in
-this document
+NominetCodingChallengeTestDocument.doc from the /documentation directory. 
+Follow the steps in this document if you want to repeat these tests.
 
 # Example contents of Input.txt 
 (Note blank lines, trailing spaces or lines nut in this format will cause
