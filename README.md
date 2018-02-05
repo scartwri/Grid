@@ -20,9 +20,9 @@ Open a terminal
 
 cd /home/grid
 
-chmod +r input.txt
+(if necessary) chmod +r input.txt
 
-chmod +x grid.jar
+(if necessary) chmod +x grid.jar
 
 java -jar grid.jar
 
@@ -75,11 +75,11 @@ Tower.java - object template of a Tower object, since Receiver and Transmitter s
 
 Receiver.java - object template of a Receivers Object. A (Receiver IS-A Tower)
 
-Transmitters.java - bject template of a collection of Transmitter objects. (HAS-A Transmitter's relationship)
+Transmitters.java - object template of a collection of Transmitter objects. (HAS-A Transmitter's relationship)
 
 Transmitter.java - object template of Tranmitter object A (Transmitter IS-A Tower)
 
 
 Acknowledgments
 
-Chebyshev soultion from  [cljavacode.blogspot.ie](http://cljavacode.blogspot.ie/2017/02/chebyshev-distance-between-two-points.html)
+Chebyshev equation from  [cljavacode.blogspot.ie](http://cljavacode.blogspot.ie/2017/02/chebyshev-distance-between-two-points.html)
