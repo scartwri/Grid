@@ -2,6 +2,8 @@ Nominet Coding Challenge
 
 This program determines whether a set of recieving towers can receive a signal from a set of transmitting towers on a remote (and conveniently rectangular) island. 
 
+This application has been tested in an Ubuntu Linux environment.
+
 Getting Started
 
 1. Create a suitable directory in your Linux system, eg /home/grid
@@ -13,7 +15,10 @@ Ensure JRE 1.8 is installed in the linux OS.
 
 How to run (assuming /home/grid is the directory being used)
 
-cd /home/grid 
+Open a terminal 
+cd /home/grid
+chmod +r input.txt
+chmod +x grid.jar
 java -jar grid.jar
 
 How to test.
@@ -21,6 +26,22 @@ How to test.
 If you need to test the application and verify that it is working correctly download a copy of the
 NominetCodingChallengeTestDocument.doc from the /documenation directory in git. Follow the steps in
 this document
+
+Example contents of Input.txt (Note blank lines, trailing spaces or lines nut in this format will cause
+the program to exit with an error message.
+
+10 10
+1 2 5 1
+2 0 6 3
+3 1 2 2
+4 3 5 3
+1 0 1
+2 8 8
+3 6 5
+
+Example output if the above input.txt used:
+2/3
+4 5
 
 Acknowledgments
 
