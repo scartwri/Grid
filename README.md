@@ -59,6 +59,22 @@ the program to exit with an error message.
  2/3
 4 5
 
+Code Layout
+
+Data.java - this specifies the object template that is used to retrieve and  validate the input from the input.txt file
+
+Constant.java - this specifies an object that contains program constants
+
+Receivers.java - this specifies the object template for a collection of Receivers (HAS-A Receiver's relationship)
+
+Tower.java - this specifies the object template of a Tower object, since Receiver and Transmitter share the same characteristics
+
+Receiver.java - this specifies the object template of a Receivers Object. A Receiver IS-A Tower
+
+Transmitters.java - this specifies the object template of a collection of Transmitter objects. (HAS-A Transmitter's relationship)
+
+Transmitter.java - object template of Tranmitter object A Transmitter IS-A Tower
+
 Acknowledgments
 
 Chebyshev soultion from  [cljavacode.blogspot.ie](http://cljavacode.blogspot.ie/2017/02/chebyshev-distance-between-two-points.html)
