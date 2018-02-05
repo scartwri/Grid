@@ -1,6 +1,6 @@
 Nominet Coding Challenge
 
-This program determines whether a set of recieving towers can receive a signal from a set of transmitting towers on a remote (and conveniently rectangular) island. 
+This program determines whether a set of receiving towers can receive a signal from a set of transmitting towers on a remote (and conveniently rectangular) island. 
 
 This application has been tested in an Ubuntu Linux environment.
 
